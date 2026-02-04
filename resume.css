@@ -1,60 +1,45 @@
-.resume-outer {
-    border-width: 2px;
+.section {
+    text-align: center;
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.contact-info {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.links {
+    color: black;
+    text-decoration: none;
+}
+
+.summary {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hr-element {
     border-style: solid;
-    border-color: black;
-    height: 95vh;
+    border-color: lightgrey;
+    border-width: 1px;
     width: 95vw;
     text-align: center;
 }
-.name {
-    font-size: 15px;
-    border-bottom-width: 1px;
-    border-top-width: 0;
-    border-left-width: 0;
-    border-right-width: 0;
-    border-style: solid;
-    border-color: black;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-span {
-    font-weight: bold;
-}
-h1 {
-    font-weight: bold;
-    font-size: 30px;
-}
-.summary {
-    font-size: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.ed-left {
-    text-align: left;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-h2 {
-    font-weight: bold;
-    font-size: 20px;
-}
-.ed-right {
-    text-align: right;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+
 .education {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-
+    flex-direction: row;
+    gap: 10px;
 }
 
-.bottom_border {
-    border-bottom-width: 1px;
-    border-top-width: 0;
-    border-left-width: 0;
-    border-right-width: 0;
-    border-style: solid;
-    border-color: black;
+.subheading {
+    font-weight: bold;
+    font-size: 20px;
 }
